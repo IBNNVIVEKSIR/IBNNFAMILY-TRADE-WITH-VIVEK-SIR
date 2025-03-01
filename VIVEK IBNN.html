@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBNN FAMILY Trade WITH VIVEK SIR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #ffdde1, #fbc2eb, #42a5f5, #00e676);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .marquee {
+            font-size: 22px;
+            font-weight: bold;
+            color: yellow;
+            background: linear-gradient(90deg, #ff5722, #ff9800, #ff4081);
+            padding: 10px 0;
+            border-radius: 10px;
+        }
+        .container {
+            max-width: 750px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            border: 5px solid #ff6f61;
+        }
+        .about {
+            margin-top: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #42a5f5, #00e676, #ffeb3b);
+            border-radius: 10px;
+            color: white;
+        }
+        @keyframes blink {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: orange; }
+            100% { color: red; }
+        }
+        .blink-text {
+            font-size: 30px;
+            font-weight: bold;
+            animation: blink 1.5s infinite;
+            background: linear-gradient(45deg, #ff4081, #ff9100, #42a5f5);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .bold-text { font-weight: bold; font-size: 18px; }
+        .colored-text { font-weight: bold; font-size: 18px; }
+        .line1 { color: red; }
+        .line2 { color: blue; }
+        .line3 { color: green; }
+        .line4 { color: orange; }
+        @keyframes blast {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.2); opacity: 0.7; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .blast-button {
+            font-size: 22px;
+            font-weight: bold;
+            background: linear-gradient(90deg, #ff5722, #ff9800, #ff4081);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            animation: blast 1s infinite;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .countdown-container {
+            font-size: 22px;
+            font-weight: bold;
+            color: #d32f2f;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <marquee class="marquee">📢 Join IBNN FAMILY for 95% accurate trading calls! 🚀 Free Trading Tips Daily! 📢</marquee>
+    <div class="container">
+        <h1 class="blink-text">🚀 Welcome to IBNN FAMILY 🚀</h1>
+        <p>Dr. Vivek Sir 8 साल से इंडियन स्टॉक मार्केट में काम कर रहे हैं और डेली कॉल्स देते हैं जिनकी 95% एक्यूरेसी होती है। सभी सेवाएँ फ्री हैं।</p>
+        
+        <h3>🔹 सेवाएँ:</h3>
+        <p class="colored-text line1">📈 95% एक्यूरेसी वाली डेली ट्रेडिंग कॉल्स</p>
+        <p class="colored-text line2">🎯 प्रॉपर टारगेट और स्टॉपलॉस</p>
+        <p class="colored-text line3">🧠 IBNN साइकोलॉजी आधारित विश्लेषण</p>
+        <p class="colored-text line4">⏳ 8 साल का अनुभव</p>
+        
+        <p>टेलीग्राम चैनल को जॉइन करें:</p>
+        <a href="https://t.me/Stockmarket_Expert_VivekSir" target="_blank">
+            <button class="blast-button">🔥 FREE JOIN TELEGRAM 🔥</button>
+        </a>
+        
+        <div class="countdown-container">⏳ ऑफ़र समाप्त होने में <span id="countdown">300</span> सेकंड बाकी हैं!</div>
+        
+        <h3>📢 About Me:</h3>
+        <div class="about">
+            <h2>👨‍⚕️ Dr. Vivek Sir</h2>
+            <p><span class="bold-text">🩺 Profession:</span> General Physician & Stock Market Expert</p>
+            <p><span class="bold-text">📊 Experience:</span> 8+ years in Indian Stock Market</p>
+            <p><span class="bold-text">🧠 Expertise:</span> IBNN Psychology-based Trading Strategies</p>
+            <p><span class="bold-text">🎯 Mission:</span> Providing free trading advisory</p>
+            <p><span class="bold-text">📢 Daily Calls:</span> High-accuracy trading signals</p>
+        </div>
+    </div>
+    
+    <script>
+        let timeLeft = 300;
+        function updateCountdown() {
+            if (timeLeft > 0) {
+                document.getElementById('countdown').innerText = timeLeft;
+                timeLeft--;
+                setTimeout(updateCountdown, 1000);
+            } else {
+                document.querySelector('.blast-button').disabled = true;
+                document.querySelector('.blast-button').innerText = "Offer Expired!";
+                document.querySelector('.blast-button').style.background = "gray";
+            }
+        }
+        window.onload = function() {
+            updateCountdown();
+        };
+    </script>
+</body>
+</html><div class="feedback-popup" id="feedback">👍 "Life-changing Trading Tips!!"</div>
+    
+    <script>
+        let timeLeft = 5;
+        function updateCountdown() {
+            if (timeLeft > 0) {
+                document.getElementById('countdown').innerText = timeLeft;
+                timeLeft--;
+                setTimeout(updateCountdown, 05);
+            } else {
+                document.querySelector('.blast-button').disabled = true;
+                document.querySelector('.blast-button').innerText = "Offer Expired!";
+                document.querySelector('.blast-button').style.background = "gray";
+            }
+        }
+        
+        function showFeedback() {
+            const feedbacks = [
+                "👍 'Best Trading Calls Ever!'",
+                "🚀 '95% Accuracy is Real!'",
+                "🔥 'Life-changing Trading Tips!'",
+                "🎯 'Perfect Target & Stop Loss!'",
+                "💡 'IBNN Psychology Works!'",
+                "📈 'Join Now for Profitable Trades!'"
+            ];
+            
+            let index = 0;
+            function displayFeedback() {
+                document.getElementById('feedback').innerText = feedbacks[index];
+                document.getElementById('feedback').style.display = 'block';
+                setTimeout(() => {
+                    document.getElementById('feedback').style.display = 'none';
+                    index = (index + 1) % feedbacks.length;
+                    setTimeout(displayFeedback, 05);
+                }, 2000);
+            }
+            displayFeedback();
+        }
+        
+        window.onload = function() {
+            updateCountdown();
+            showFeedback();
+        };
+    </script>
+</body>
+</html>
+DR.VIVEK SIR IBNN 
